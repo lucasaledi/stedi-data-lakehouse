@@ -6,6 +6,7 @@ CREATE EXTERNAL TABLE IF NOT EXISTS `lucasaledi-stedi`.`customer_landing` (
   `serialNumber` string,
   `registrationDate` bigint,
   `lastUpdateDate` bigint,
+  `shareWithResearchAsOfDate` bigint,
   `shareWithPublicAsOfDate` bigint,
   `shareWithFriendsAsOfDate` bigint
 )

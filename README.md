@@ -65,3 +65,9 @@ Contains the following fields:
 * x
 * y
 * z
+
+### Relevant Notes:
+* `step_trainer_trusted` table has stored user's email address as to later join with user field from `accelerometer_truted` table;
+* `machine_learning_curated` was created by joining columns:
+    1. `accelerometer_trusted` user with `step_trainer_trusted` email;
+    2. `accelerometer_trusted` timeStamp with `step_trainer_trusted` sensorReadingTime.
